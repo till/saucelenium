@@ -1236,4 +1236,7 @@ element, focus on the element first before running this command.
 */
 void keyPressNative(String keycode);
 
+/** Get current (active) session Id */
+String getSessionId();
+
 }

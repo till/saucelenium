@@ -58,6 +58,8 @@ public interface CommandProcessor {
     /** Ends the current Selenium testing session (normally killing the browser) */
     public void stop();
 
+    public String getSessionId();
+
     String getString(String string, String[] strings);
     String[] getStringArray(String string, String[] strings);
     Number getNumber(String string, String[] strings);

@@ -743,4 +743,7 @@ public class DefaultSelenium implements Selenium {
 		commandProcessor.doCommand("keyPressNative", new String[] {keycode,});
 	}
 
+        public String getSessionId() {
+            return commandProcessor.getSessionId();
+        }
 }

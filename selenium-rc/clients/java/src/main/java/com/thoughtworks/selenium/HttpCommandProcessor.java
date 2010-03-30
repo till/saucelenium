@@ -362,4 +362,8 @@ public class HttpCommandProcessor implements CommandProcessor {
         return b;
     }
 
+    public String getSessionId() {
+        return sessionId;
+    }
+
 }

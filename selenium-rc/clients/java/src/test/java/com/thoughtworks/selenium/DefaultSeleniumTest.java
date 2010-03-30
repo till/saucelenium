@@ -84,5 +84,9 @@ public class DefaultSeleniumTest extends TestCase {
         public boolean[] getBooleanArray(String string, String[] strings) {
                     return new boolean[0];
                 }
+
+        public String getSessionId() {
+            return "";
+        }
     }
 }

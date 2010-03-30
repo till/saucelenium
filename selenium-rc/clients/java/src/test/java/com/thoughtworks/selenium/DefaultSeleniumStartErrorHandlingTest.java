@@ -91,5 +91,9 @@ public class DefaultSeleniumStartErrorHandlingTest extends TestCase {
             throw new UnsupportedOperationException();
         }
 
+        public String getSessionId() {
+            throw new UnsupportedOperationException();
+        }
+
     }
 }
